@@ -1,8 +1,8 @@
-import { Request, Response, NextFunction, response } from "express"
+import { Request, Response, NextFunction } from "express"
 
 export function ensureAdmin(
     request: Request,
-    reponse: Response,
+    response: Response,
     next: NextFunction) {
 
     const admin = true
