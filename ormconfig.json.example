@@ -1,6 +1,6 @@
 {
-  "type": "sqlite",
-  "database":"src/database/database.sqlite",
+  "type": "postgres",
+  "url":"",
   "migrations": ["src/database/migrations/*.ts"],
   "entities": ["src/entities/*.ts"],
   "cli": {
